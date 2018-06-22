@@ -1,0 +1,61 @@
+html {
+    font-family: 'Shrikhand', cursive;
+}
+
+
+body {
+
+    background: rgb(22, 19, 19);
+}
+
+
+.pepito {
+    font-size: 200%;
+    color: #FF5733;
+    text-align-last: center
+}
+
+li {
+    font-size: 100%;
+    color: blue;
+}
+
+.pepito1 {
+    font-size: 300%;
+    color: chartreuse;
+    text-align: right;
+    border-bottom-color: blue;
+    border-top-width: 10ch; 
+    margin: 10%;
+    
+}
+
+.pepito::after {
+
+    content: "&";
+}
+
+
+ul li:nth-child(2):hover{
+    font-size: 50px;
+}
+
+#uno {
+    font-size: 200%;
+    color: crimson;
+    text-align: right;
+}
+
+ol {
+    text-align: right;
+}    
+
+.caja {
+
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    background:#ee0467
+    }
+
